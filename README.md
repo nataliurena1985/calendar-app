@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Aplicacion GifExpertApp en react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta es una aplicacin pequea pero muy ilustrativa que explica cmo utilizar React + customHooks para poder resolver necesidades en especfico que podremos re-utilizar despues.
 
-## Available Scripts
+## TEMAS QUE SE VERAN
 
-In the project directory, you can run:
+### ● Custom Hooks
 
-### `npm start`
+### ● Comunicacion entre componentes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ● Clases de CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ● Animaciones
 
-### `npm test`
+### ● Enviar mtodos como argumentos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ● Crear listados
 
-### `npm run build`
+### ● keys
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ● claudia
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Giphy
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](https://res.cloudinary.com/dv6nijgvd/image/upload/v1715716447/nodeANDreact/ferpmi19qwtq82sh6bhm.png)
 
-### `npm run eject`
+[Link url de la aplicacion](https://heroes-app-topaz.vercel.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Reactjs.org-Estructura-de-directorios](https://es.reactjs.org/docs/faq-structure.html)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Estructura-nombres-de-folders-y-componentes-en-React-Hackernoon.com](https://hackernoon.com/structuring-projects-and-naming-components-in-react-1261b6e18d76)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[Giphy-Developers-Search-Endpoint](https://developers.giphy.com/docs/api/endpoint#search)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Animate.css](https://animate.style/)
 
-## Learn More
+####COMANDOS para el back y el front
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+client
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+         npm install
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ PARA CORRER
+CLIENT
+npm start
 
-### Deployment
+npm install query-string
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+para volver
+control c
+```
+
+```javascript
+import React from "react";
+import ReactDOM from "react-dom";
+
+import { GifExpertApp } from "./GifExpertApp";
+
+import "./index.css";
+
+ReactDOM.render(<GifExpertApp />, document.getElementById("root"));
+```
