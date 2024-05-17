@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Navbar } from "../ui/Navbar";
 
 import { messages } from "../../helpers/calendar-messages-es";
@@ -8,16 +8,31 @@ import { Calendar, momentLocalizer } from "react-big-calendar";
 
 import moment from "moment";
 import "moment/locale/es";
+import { CalendarEvent } from "./CalendarEvent";
 moment.locale("es");
 const localizer = momentLocalizer(moment);
 
 export const CalendarScreen = () => {
+
+  const [lastView, setLastView] = useState(
+    localStorage.getItem("lastView") || "month"
+  );
+
+
+
   const events = [
     {
       title: "cumpleaños del jefe",
       start: moment().toDate(),
-      end: moment().add(1, "hours").toDate(),
+      end: moment().add(3, "hours").toDate(),
       bgcolor: "fafafa",
+      notes:"comprar el pastel",
+      user:{
+        _id:"123",
+        name:"natali"
+      }
+
+
     },
   ];
 
@@ -46,6 +61,10 @@ export const CalendarScreen = () => {
         endAccessor="end"
         messages={messages}
         eventPropGetter={eventStyleGetter}
+        view={lastView}
+        components={{
+          event: CalendarEvent,
+        }}
       />
     </div>
   );
