@@ -33,6 +33,7 @@ Esta es una aplicacin pequea pero muy ilustrativa que explica cmo utilizar React
 [Giphy-Developers-Search-Endpoint](https://developers.giphy.com/docs/api/endpoint#search)
 
 [Animate.css](https://animate.style/)
+[Package  picker](https://www.npmjs.com/package/react-datetime-picker)
 
 ####COMANDOS para el back y el front
 
@@ -53,7 +54,7 @@ CLIENT
 npm start
 
 npm install query-string
-
+npm i react-datetime-picker
 
 
 
