@@ -71,4 +71,57 @@ import { GifExpertApp } from "./GifExpertApp";
 import "./index.css";
 
 ReactDOM.render(<GifExpertApp />, document.getElementById("root"));
+
+004 React-Router-Dom
+https://reacttraining.com/react-router/web/guides/quick-start
+
+004 getBootstrap.com-Sitio-oficial
+https://getbootstrap.com/docs/4.5/getting-started/introduction/
+
+005 LoginScreen-JS-y-CSS
+https://gist.github.com/Klerith/74a0c4426599f3bc25b7f4e8d95b6a7f
+
+005 Font-Awesome-CDN
+https://cdnjs.com/libraries/font-awesome
+
+005 https-cdnjs.cloudflare.com-ajax-libs-font-awesome-5.12.0-2-css-all.min.css
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css
+
+006 react-big-calendar
+https://www.npmjs.com/package/react-big-calendar
+
+007 Mensajes-en-espa-ol
+https://gist.github.com/Klerith/1658fc368898dd673fc5a9a01ccb12ff
+
+009 Modal-Styles
+https://gist.github.com/Klerith/5f490092ce9bd5775cb1d91162be0cea
+
+009 React-Modal
+https://www.npmjs.com/package/react-modal
+
+010 React-Datetime-Picker
+https://www.npmjs.com/package/react-datetime-picker
+
+010 EventModal-Contenido-HTML
+https://gist.github.com/Klerith/8c9b2178830045b3f5126422bd0223e1
+
+010 -Victoruxui
+https://twitter.com/victoruxui
+
+013 https-react-redux.js.org-
+https://react-redux.js.org/
+
+013 https-es.redux.js.org-
+https://es.redux.js.org/
+
+013 npm-redux-thunk
+
+
+
+https://www.npmjs.com/package/sweetalert2
+
+npm i sweetalert2
+
+
+
 ```
