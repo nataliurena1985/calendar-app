@@ -116,7 +116,7 @@ https://es.redux.js.org/
 
 013 npm-redux-thunk
 
-
+npm install react-redux redux redux-thunk
 
 https://www.npmjs.com/package/sweetalert2
 
